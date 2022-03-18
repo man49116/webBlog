@@ -1,0 +1,44 @@
+.post{
+    width: 385px;
+    margin: 0 25px 40px 25px;
+    display: flex;
+    flex-direction: column
+}
+
+.postImg{
+    width:100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px
+}
+
+.postTitle{
+    margin: 10px 0 10px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align:center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.postDate{
+    padding: 7px;
+    text-align: center;
+    font-size: 18px;
+    color: #999999;
+}
+
+.postDescription {
+    font-size: 14px;
+    color: #444;
+    line-height: 24px;
+    margin: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}

@@ -1,0 +1,50 @@
+.top {
+    width: 100%;
+    height: 50px;
+    position:sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    z-index: 99;
+    background-color: rgb(231, 229, 229);
+
+}
+
+.topLeft, .topRight {
+    display: flex;
+    flex: 3;
+    justify-content: center;
+}
+
+.topItem{
+    font-size: 22px;
+    margin-right: 10px;
+
+}
+
+.topCenter {
+    flex: 6;
+}
+
+.topList{
+    display: flex;
+    justify-content: center;
+    margin: 0 ;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.topListItem{
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 500
+}
+
+
+.topAvatar{
+    height:40px;
+    width: 40px;
+    border-radius:50%;
+    object-fit: cover;
+}
